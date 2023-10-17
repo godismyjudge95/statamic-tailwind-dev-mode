@@ -30,7 +30,7 @@ Outputs:
 < script>
 // Your tailwind.config.js here
 </script>
-\<style type="text/tailwindcss">
+<style type="text/tailwindcss">
 /** Your resources/css/site.css **/ 
 </style>
 ```
