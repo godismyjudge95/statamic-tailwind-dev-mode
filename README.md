@@ -1,10 +1,11 @@
 # Statamic Tailwind Dev Mode
 
-> A simple tag for embedding the Tailwind CDN when the site is in a dev environment for Statamic 4+
+> A simple tag for embedding the Tailwind CDN, Tailwind config, and site css when the site is in a dev environment for Statamic 4+
 
 ## Features
 
-This addon allows you to use a `{{ tailwind_dev_mode }}` tag in the `<head>` to not only include Tailwind's CDN url but also include the project's `tailwind.config.js` and `site.css` inline in the browser.  This means that you can make any changes you want in browser and still have all your customizations from your Tailwind config and site css.
+This addon allows you to use a `{{ tailwind_dev_mode }}` tag in the `<head>` to not only include Tailwind's CDN url but also include the project's `tailwind.config.js` and `site.css` inline in the browser.
+This means that you can make any changes you want in browser and still have all your customizations from your Tailwind config and site css.
 
 This tag is automatically turned off when the environment is set to `production` in the `.env` of the project.
 
