@@ -1,0 +1,24 @@
+{
+    "name": "godismyjudge95/statamic-tailwind-dev-mode",
+    "license": "MIT",
+    "description": "A simple tag for embedding the Tailwind CDN when the site is in a dev environment for Statamic 4+",
+    "require": {
+        "statamic/cms": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Godismyjudge95\\StatamicTailwindDevMode\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Tailwind Dev Mode Tag",
+            "description": "A simple tag for embedding the Tailwind CDN when the site is in a dev environment for Statamic 4+"
+        },
+        "laravel": {
+            "providers": [
+                "Godismyjudge95\\StatamicTailwindDevMode\\ServiceProvider"
+            ]
+        }
+    }
+}
