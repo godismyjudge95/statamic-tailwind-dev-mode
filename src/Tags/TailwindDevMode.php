@@ -24,7 +24,7 @@ class TailwindDevMode extends Tags
         }
 
         try {
-            $site_css_path = $this->params->get('css', 'css/site.css');
+            $site_css_path = $this->params->get('css', 'resources/css/site.css');
             $site_css = file_get_contents(base_path($site_css_path));
             $site_css = preg_replace('/@import \'tailwindcss\/.*?;\n/ms', '', $site_css);
         } catch (\Exception $e) {
