@@ -26,11 +26,11 @@ Simply use the Tailwind dev mode tag in the `<head>`:
 
 Outputs:
 ```html
-<script src="https://cdn.tailwindcss.com"></script>
-<script>
+< script src="https://cdn.tailwindcss.com"></script>
+< script>
 // Your tailwind.config.js here
 </script>
-<style type="text/tailwindcss">
+\<style type="text/tailwindcss">
 /** Your resources/css/site.css **/ 
 </style>
 ```
