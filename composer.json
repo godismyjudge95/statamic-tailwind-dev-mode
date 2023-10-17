@@ -1,7 +1,7 @@
 {
     "name": "godismyjudge95/statamic-tailwind-dev-mode",
     "license": "MIT",
-    "description": "A simple tag for embedding the Tailwind CDN when the site is in a dev environment for Statamic 4+",
+    "description": "A simple tag for embedding the Tailwind CDN, Tailwind config, and site css when the site is in a dev environment for Statamic 4+",
     "require": {
         "statamic/cms": "^4.0"
     },
@@ -13,7 +13,7 @@
     "extra": {
         "statamic": {
             "name": "Tailwind Dev Mode Tag",
-            "description": "A simple tag for embedding the Tailwind CDN when the site is in a dev environment for Statamic 4+"
+            "description": "A simple tag for embedding the Tailwind CDN, Tailwind config, and site css when the site is in a dev environment for Statamic 4+"
         },
         "laravel": {
             "providers": [
