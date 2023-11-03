@@ -8,7 +8,7 @@ class TailwindDevMode extends Tags
 {
     public function index()
     {
-        if (config('env') === 'production' || request()->has('no_tailwind')) {
+        if (config('app.env') === 'production' || request()->has('no_tailwind')) {
             return '';
         }
 
